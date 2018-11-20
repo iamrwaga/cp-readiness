@@ -1,0 +1,183 @@
+body{
+    font: 15px/1.5/Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background:  url('../img/login.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: orange;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+/* Header */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #e8db1d 3px solid;
+}
+
+header  a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px; 
+}
+
+header .highlight, header .current a {
+    color: #ab14e7;
+    font-weight: bold;
+}
+header a:hover {
+    color:#cccccc;
+    font-weight: bold;
+}
+/*registerform*/
+.registerbox {
+    width:  470px;
+    height: 450px;
+    background:  #ab14e7;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(9, 156, 224);
+}
+.avatar{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 30px);
+}
+h1 {
+    margin:0;
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+}
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registerbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid #e8db1d;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: paleturquoise;
+    font-size: 16px;
+}
+
+.registerbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgb(252, 3, 44);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.registerbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #07c5ff;
+    color: #000;
+}
+.registerbox a{
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 10px;
+    color: rgb(233, 229, 12);
+}
+footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    border-top: #e8db1d 3px solid;
+}
+/* media queries */
+@media(max-width: 768px){
+    section .registerbox,
+    header #branding,
+    header nav,
+    header nav li,
+    
+    header {
+        padding-bottom: 0px;
+    }
+    
+
+}
